@@ -1,0 +1,12 @@
+nav ul {
+	list-style-type:none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+#search_content {
+     background-image: url(img/voice.jpg);
+     background-repeat: no-repeat;
+}
