@@ -12,12 +12,36 @@ ul>li>img {
 	vertical-align: middle;
 }
 
+a:link {
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #5C5C5C;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #5C5C5C;
+}
+
 div.header {
 	position: relative;
 	float: right;
 	display: block;
 	top: -15px;
 	padding-right: 20px;
+}
+
+#apps, #notice, #share {
+	opacity: 0.5;
+}
+
+#apps:hover, #notice:hover, #share:hover {
+	opacity: 1;
 }
 
 #photo {
@@ -43,12 +67,34 @@ input#search_content {
     margin: auto;
     width: 500px;
     height: 25px;
+    border: solid 1px #C9C9C9;
+    padding-left: 10px;
+}
+
+input#search_content:hover {
+	outline: solid 1px #CCCCCC;
+}
+
+input#search_content:focus {
+	outline: solid 1px #0066FF;
 }
 
 .submit {
 	text-align: center;
 }
 
+input[type=submit] {
+	height: 30px;
+	color: #5C5C5C;
+	background-color: #EEEEEE;
+	border: solid 1px #C9C9C9;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+input[type=submit]:hover {
+	box-shadow: 0 1px 1px #888888;
+}
 
 .footer {
 	background-color: #EDEDED;
